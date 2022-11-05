@@ -61,6 +61,15 @@ color: #ffffff;
 visibility: hidden;
 }
 
+.pros .quality {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/*second page*/ 
 .site-nav {
   font-weight: 500;
   font-size: 14px;
