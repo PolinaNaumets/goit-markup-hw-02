@@ -1,0 +1,118 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+body {background-color: #fff;
+    color: #212121;
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    font-size: 26px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.logo .accent
+{
+    color: var(--accent-color)
+}
+
+.logo .main-color {
+    color:#000000
+}
+.site-nav {
+    font-weight: 500;
+    font-size:14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.site-nav .link:focus,
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+.contacts .link:focus,
+.contacts .link:hover {
+    color: var(--accent-color);
+}
+
+.contacts .link.current {
+    color: var(--accent-color);
+}
+.buttons {
+    color: var(--primary-text-color);
+   background-color: #F5F4FA; 
+   font-size: 16px;
+   font-weight: 500;
+   font-family: inherit;
+   line-height: 1.63;
+   letter-spacing: 0.03em;
+   text-align: center;
+}
+.buttons .project-type.current {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+
+.buttons .project-type:focus,
+.buttons .project-type:hover {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+}
+.works .project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.works .project-kind {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+.logo .white-color {
+    color: #fff;
+}
+.studio-contacts .address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+.studio-contacts .e-mail,
+.studio-contacts .cell-phone {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.studio-contacts .e-mail:hover,
+.studio-contacts .e-mail:focus,
+.studio-contacts .cell-phone:hover,
+.studio-contacts .cell-phone:focus {
+    color: var(--accent-color)
+}
