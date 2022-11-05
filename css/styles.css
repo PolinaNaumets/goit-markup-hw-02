@@ -49,12 +49,13 @@ main > section button
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
     background-color: #f5f4fa;
+    cursor: pointer;
 }
 
 main > section button:hover,
 main > section button:focus {
 color: #ffffff;
-    background-color: var(--accent-color)
+background-color: var(--accent-color);
 }
 
 #peculiarities {
@@ -161,6 +162,7 @@ color: #ffffff;
   letter-spacing: 0.03em;
   text-align: center;
   list-style-type: none;
+  cursor: pointer;
 }
 .buttons .project-type.current {
   color: #ffffff;
