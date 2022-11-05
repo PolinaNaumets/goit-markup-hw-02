@@ -28,7 +28,7 @@ body {
   color: #000000;
 }
 
-main >section .solution {
+main > section .solution {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -40,16 +40,15 @@ main >section .solution {
 }
 
 
-.service .offer {
+
+main > section .offer.current {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
-}
-.service .offer.current {
-color: #ffffff;
-background-color: var(--accent-color);
+    color: #ffffff;
+    background-color: var(--accent-color);
 }
 .site-nav {
   font-weight: 500;
