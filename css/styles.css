@@ -107,7 +107,7 @@ body {
 }
 .studio-contacts {
     font-style: normal;
-    text-decoration: none;
+    list-style-type: none;
 }
 .studio-contacts .address {
   font-weight: 400;
