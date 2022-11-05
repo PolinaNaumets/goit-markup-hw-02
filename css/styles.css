@@ -56,6 +56,11 @@ main > section button:focus {
 color: #ffffff;
     background-color: var(--accent-color)
 }
+
+h2 .peculiarities {
+    visibility: hidden;
+}
+
 .site-nav {
   font-weight: 500;
   font-size: 14px;
