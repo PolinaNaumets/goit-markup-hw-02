@@ -70,6 +70,7 @@ visibility: hidden;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--primary-text-color);
 }
 .pros .description {
     font-weight: 400;
@@ -86,7 +87,7 @@ visibility: hidden;
     letter-spacing: 0.03em;
 }
 
-section > h2 .team {
+.team {
     list-style-type: none;
 }
 
