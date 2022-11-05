@@ -57,7 +57,7 @@ color: #ffffff;
     background-color: var(--accent-color)
 }
 
-h2 .peculiarities {
+section > h2 .peculiarities {
     visibility: hidden;
 }
 
