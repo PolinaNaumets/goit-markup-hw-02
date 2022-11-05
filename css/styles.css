@@ -57,6 +57,7 @@ body {
 
 .contacts .link {
     color: var(--secondary-text-color);
+    text-decoration: none;
 }
 .contacts .link:focus,
 .contacts .link:hover {
