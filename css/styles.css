@@ -47,8 +47,8 @@ main > section button
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #ffffff;
-    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+    background-color: #f5f4fa;
 }
 
 main > section button:hover,
@@ -160,7 +160,7 @@ color: #ffffff;
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
-list-style-type: none;
+  list-style-type: none;
 }
 .buttons .project-type.current {
   color: #ffffff;
