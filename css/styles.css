@@ -152,6 +152,11 @@ background-color: var(--accent-color);
 .contacts .link.current {
   color: var(--accent-color);
 }
+
+#portfolio-title {
+    visibility: hidden;
+}
+
 .buttons {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
