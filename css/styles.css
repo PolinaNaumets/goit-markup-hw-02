@@ -86,7 +86,7 @@ visibility: hidden;
     letter-spacing: 0.03em;
 }
 
-.team li .team-member {
+.team .team-member-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -94,7 +94,7 @@ visibility: hidden;
     letter-spacing: 0.03em;
     background-color: #fff;
 }
-.team li .job {
+.team .team-member-job {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
