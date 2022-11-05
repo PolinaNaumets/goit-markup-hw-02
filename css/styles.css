@@ -97,6 +97,9 @@ body {
   color: #fff;
   background-color: #2F303A;
 }
+.end {
+    font-style: normal;
+}
 .studio-contacts .address {
   font-weight: 400;
   font-size: 14px;
