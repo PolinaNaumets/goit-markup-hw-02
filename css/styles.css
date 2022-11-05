@@ -57,7 +57,9 @@ color: #ffffff;
     background-color: var(--accent-color)
 }
 
-
+#peculiarities {
+    visibility: hidden;
+}
 
 .pros {
         list-style-type: none;
