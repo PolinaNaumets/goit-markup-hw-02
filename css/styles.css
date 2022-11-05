@@ -99,6 +99,7 @@ body {
 }
 .studio-contacts {
     font-style: normal;
+    text-decoration: none;
 }
 .studio-contacts .address {
   font-weight: 400;
