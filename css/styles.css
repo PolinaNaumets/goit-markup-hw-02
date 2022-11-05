@@ -86,6 +86,9 @@ color: #ffffff;
     text-align: center;
     letter-spacing: 0.03em;
 }
+.occupation {
+    list-style-type: none;
+}
 
 .team {
     list-style-type: none;
