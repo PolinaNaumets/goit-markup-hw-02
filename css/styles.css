@@ -41,7 +41,7 @@ main > section .solution {
 
 
 
-main > section .offer,
+main > section .offer:focus,
 main > section .offer:hover,
 main > section .offer:active {
     font-weight: 700;
