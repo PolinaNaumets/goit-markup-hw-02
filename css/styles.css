@@ -86,6 +86,10 @@ visibility: hidden;
     letter-spacing: 0.03em;
 }
 
+section > h2 .team {
+    list-style-type: none;
+}
+
 .team .team-member-name {
     font-weight: 500;
     font-size: 16px;
