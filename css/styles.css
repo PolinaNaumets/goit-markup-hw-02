@@ -153,10 +153,6 @@ background-color: var(--accent-color);
   color: var(--accent-color);
 }
 
-.hero #portfolio {
-    visibility: hidden;
-}
-
 .buttons {
   color: var(--primary-text-color);
   background-color: #f5f4fa;
