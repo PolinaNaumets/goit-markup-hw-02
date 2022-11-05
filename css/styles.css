@@ -50,6 +50,12 @@ main > section button
     color: #ffffff;
     background-color: var(--accent-color);
 }
+
+main > section button:hover,
+main > section button:focus {
+color: #ffffff;
+    background-color: var(--accent-color)
+}
 .site-nav {
   font-weight: 500;
   font-size: 14px;
