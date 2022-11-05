@@ -61,13 +61,16 @@ color: #ffffff;
 visibility: hidden;
 }
 
+.pros {
+        list-style-type: none;
+}
+
 .pros .quality {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    list-style-type: none;
 }
 
 /*second page*/ 
