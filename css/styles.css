@@ -58,7 +58,7 @@ color: #ffffff;
 }
 
 #peculiarities {
-opacity: 0;
+visibility: hidden;
 }
 
 .site-nav {
