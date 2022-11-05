@@ -40,7 +40,7 @@ main > section .solution {
 }
 
 
-main > section .offer.current
+main > section button
  {
     font-weight: 700;
     font-size: 16px;
