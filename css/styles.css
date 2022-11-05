@@ -28,7 +28,7 @@ body {
   color: #000000;
 }
 
-#hero .solution {
+main >section .solution {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
