@@ -133,6 +133,7 @@ body {
 .studio-contacts .address:hover,
 .studio-contacts .address:focus {
   color: var(--accent-color);
+  text-decoration: none;
 }
 
 .end {
