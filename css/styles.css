@@ -116,6 +116,7 @@ body {
   letter-spacing: 0.03em;
   color: #fff;
   background-color: #2F303A;
+  text-decoration: none;
 }
 .studio-contacts .e-mail,
 .studio-contacts .cell-phone {
@@ -125,6 +126,7 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: #2F303A;
+  text-decoration: none;
 }
 .studio-contacts .e-mail:hover,
 .studio-contacts .e-mail:focus,
@@ -133,7 +135,7 @@ body {
 .studio-contacts .address:hover,
 .studio-contacts .address:focus {
   color: var(--accent-color);
-  text-decoration: none;
+
 }
 
 .end {
