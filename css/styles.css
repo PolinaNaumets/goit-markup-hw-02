@@ -117,7 +117,9 @@ body {
 .studio-contacts .e-mail:hover,
 .studio-contacts .e-mail:focus,
 .studio-contacts .cell-phone:hover,
-.studio-contacts .cell-phone:focus {
+.studio-contacts .cell-phone:focus,
+.studio-contacts .address:hover,
+.studio-contacts .address:focus {
   color: var(--accent-color);
 }
 
