@@ -1,15 +1,15 @@
 :root {
-      --main-font: 'Roboto', sans-serif;
-        --bg-color: #FFFFFF;
-        --dark-bg-color: #2F303A;
-        --light-bg-color: #f5f4fa;
-        --text-color: #212121;
-        --light-text-color: #757575;
-        --accent-text-color: #FFFFFF;
-        --footer-text-color: rgba(255, 255, 255, 0.6);
-        --accent-color: #2196F3;
-        --active-color: #188CE8;
-        --header-border-color: #ECECEC;
+  --main-font: 'Roboto', sans-serif;
+  --bg-color: #ffffff;
+  --dark-bg-color: #2f303a;
+  --light-bg-color: #f5f4fa;
+  --text-color: #212121;
+  --light-text-color: #757575;
+  --accent-text-color: #ffffff;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --active-color: #188ce8;
+  --header-border-color: #ececec;
 }
 
 body {
@@ -30,13 +30,13 @@ ul {
 
 /*Header*/
 
-	.web {
-  	  font-family: 'Raleway', sans-serif;
-  	  font-weight: 700;
-  	  font-size: 26px;
-  	  color: var(--accent-color);
-      line-height: 1.17;
-      letter-spacing: 0.03em;
+.web {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--accent-color);
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .studio {
@@ -79,11 +79,12 @@ ul {
 
 .main-text {
   font-weight: 900;
-line-height: 1.14;
+  font-size: 44px;
+  line-height: 1.36;
   color: var(--accent-text-color);
   text-align: center;
   text-transform: uppercase;
-letter-spacing: 0.06em;
+  letter-spacing: 0.06em;
 }
 
 .main-button {
@@ -106,7 +107,7 @@ letter-spacing: 0.06em;
 
 /*Peculiarities*/
 
-.visually-hidden{
+.visually-hidden {
   visibility: hidden;
 }
 
@@ -190,7 +191,7 @@ letter-spacing: 0.06em;
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.63;
   color: var(--text-color);
   background-color: var(--light-bg-color);
   cursor: pointer;
