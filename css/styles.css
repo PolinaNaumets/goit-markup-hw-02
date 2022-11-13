@@ -30,11 +30,7 @@ ul {
 
 /*Header*/
 
-.header {
-  border: 1px solid var(--header-border-color);
-}
-
-  	.web {
+	.web {
   	  font-family: 'Raleway', sans-serif;
   	  font-weight: 700;
   	  font-size: 26px;
@@ -50,13 +46,17 @@ ul {
 .menu-item {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
   color: var(--text-color);
+  letter-spacing: 0.02em;
 }
 
 .main-contact {
   font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
   color: var(--light-text-color);
+  letter-spacing: 0.02em;
 }
 
 .menu-item:focus,
@@ -79,23 +79,24 @@ ul {
 
 .main-text {
   font-weight: 900;
-  font-size: 44px;
+line-height: 1.14;
   color: var(--accent-text-color);
   text-align: center;
   text-transform: uppercase;
-  margin-top: 0;
-  margin-bottom: 30px;
+letter-spacing: 0.06em;
 }
 
 .main-button {
   font-family: inherit;
-  line-height: 1.2;
+  font-style: normal;
+  line-height: 1.88;
   font-weight: 700;
   font-size: 16px;
   background-color: var(--accent-color);
   color: var(--accent-text-color);
   cursor: pointer;
   text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .main-button:hover,
@@ -104,24 +105,34 @@ ul {
 }
 
 /*Peculiarities*/
+
+.visually-hidden{
+  visibility: hidden;
+}
+
 .item-title {
   font-weight: 700;
   font-size: 14px;
   color: var(--text-color);
   text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
 }
 
 .item-text {
   font-size: 14px;
   line-height: 1.71;
   color: var(--light-text-color);
+  letter-spacing: 0.03em;
 }
 
 /*Activities*/
 .subtitle {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.17;
   color: var(--text-color);
+  letter-spacing: 0.03em;
 }
 
 /*Team*/
@@ -133,11 +144,15 @@ ul {
   font-weight: 500;
   font-size: 16px;
   color: var(--text-color);
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .card-text {
   font-size: 16px;
   color: var(--light-text-color);
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /*Footer*/
@@ -155,14 +170,15 @@ ul {
   line-height: 1.71;
   color: var(--accent-text-color);
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 
 .footer-contact {
-  color: var(--foter-text-color);
+  color: var(--footer-text-color);
 }
 
-.footer-adress:hover,
-.footer-adress:focus,
+.footer-address:hover,
+.footer-address:focus,
 .footer-contact:hover,
 .footer-contact:focus {
   color: var(--accent-color);
@@ -178,6 +194,7 @@ ul {
   color: var(--text-color);
   background-color: var(--light-bg-color);
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 
 .button:focus,
@@ -197,10 +214,12 @@ ul {
   font-size: 18px;
   line-height: 2;
   color: var(--text-color);
+  letter-spacing: 0.06em;
 }
 
 .portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--light-text-color);
+  letter-spacing: 0.03em;
 }
